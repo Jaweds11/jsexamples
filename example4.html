@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Checker</title>
+</head>
+<body>
+  <script>
+    const number = parseInt(prompt("Enter a number: "));
+
+    if (number > 0) {
+      console.log("The number is positive");
+      alert("The number is positive");
+    } else if (number === 0) {
+      console.log("The number is zero");
+      alert("The number is zero");
+    } else if (!isNaN(number)) {
+      console.log("The number is negative");
+      alert("The number is negative");
+    } else {
+      console.log("Invalid input");
+      alert("Invalid input");
+    }
+  </script>
+</body>
+</html>
